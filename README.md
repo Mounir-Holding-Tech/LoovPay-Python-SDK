@@ -36,7 +36,7 @@ To use the LoovPay Python SDK, make sure you have the following required fields:
 ### `Pay In`
 
 ``` python
-from loovpay import LoovPay
+from python_loovpay import LoovPay
 
 loov_pay = LoovPay()
 loov_pay.set_keys('AppKey', 'MerchantKey')
@@ -76,7 +76,7 @@ Upon successful payment initiation, the API will respond with a status code of 2
 
 ``` python
 
-from loovpay import LoovPay
+from python_loovpay import LoovPay
 
 loov_pay = LoovPay()
 loov_pay.set_keys('AppKey', 'MerchantKey')
@@ -133,7 +133,7 @@ Upon successfully initiating the mobile payment, the API will respond with a JSO
 
 ``` python
 
-from loovpay import LoovPay
+from python_loovpay import LoovPay
 
 loov_pay = LoovPay()
 loov_pay.set_keys('AppKey', 'MerchantKey')
@@ -170,7 +170,7 @@ Upon successfully initiating the mobile payment, the API will respond with a JSO
 
 ``` python
 
-from loovpay import LoovPay
+from python_loovpay import LoovPay
 
 loov_pay = LoovPay()
 loov_pay.set_keys('AppKey', 'MerchantKey')
